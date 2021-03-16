@@ -98,6 +98,42 @@
                                Text="WishList" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
+
+
+            <!-- Personal Info button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
+                                          AutomationProperties.Name="Jerry" >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Contact" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Personal Info" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
+
+            <!--  Conatct Details button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
+                                          AutomationProperties.Name="Jerry" >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="ContactInfo" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Contact Details" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
+
+            <!--  Shopping List button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
+                                          AutomationProperties.Name="Jerry" >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Shop" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Shopping List" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
         </Controls:HamburgerMenu.PrimaryButtons>
 
         <Controls:HamburgerMenu.SecondaryButtons>
