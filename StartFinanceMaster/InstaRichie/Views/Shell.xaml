@@ -113,7 +113,7 @@
 
 
             <!--  Conatct Details button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ContactDetailsPage" 
                                           AutomationProperties.Name="Jerry" >
                 <StackPanel Orientation="Horizontal">
                     <SymbolIcon Width="48" Height="48"
