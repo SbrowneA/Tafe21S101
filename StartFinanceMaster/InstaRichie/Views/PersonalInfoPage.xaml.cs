@@ -62,8 +62,8 @@ namespace StartFinance.Views
         public void Results()
         {
             conn.CreateTable<PersonalInfo>();
-            var query1 = conn.Table<PersonalInfo>();
-            PersonalInfoView.ItemsSource = query1.ToList();
+            var pInfoquery1 = conn.Table<PersonalInfo>();
+            PersonalInfoView.ItemsSource = pInfoquery1.ToList();
         }
 
         private async void AddPersonalInfo_Click(object sender, RoutedEventArgs e)
@@ -346,9 +346,9 @@ namespace StartFinance.Views
                 {
                     int AccSelection = ((PersonalInfo)PersonalInfoView.SelectedItem).ID;
                     conn.CreateTable<PersonalInfo>();
-                    var query1 = conn.Table<PersonalInfo>();
-                    var query3 = conn.Query<PersonalInfo>("DELETE FROM PersonalInfo WHERE ID ='" + AccSelection + "'");
-                    PersonalInfoView.ItemsSource = query1.ToList();
+                    var pInfoquery1 = conn.Table<PersonalInfo>();
+                    var pInfoquery3 = conn.Query<PersonalInfo>("DELETE FROM PersonalInfo WHERE ID ='" + AccSelection + "'");
+                    PersonalInfoView.ItemsSource = pInfoquery1.ToList();
                     ResetPersonalInfo();
                 }
             }
