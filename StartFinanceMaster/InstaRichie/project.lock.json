@@ -16439,25 +16439,25 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\001128225\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Rick\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\001128225\\OneDrive - TAFE SA\\Desktop\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\Start Finance.csproj",
+      "projectUniqueName": "C:\\Users\\Rick\\Desktop\\gitClone\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\Start Finance.csproj",
       "projectName": "Start Finance",
-      "projectPath": "C:\\Users\\001128225\\OneDrive - TAFE SA\\Desktop\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\Start Finance.csproj",
-      "projectJsonPath": "C:\\Users\\001128225\\OneDrive - TAFE SA\\Desktop\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\project.json",
-      "packagesPath": "C:\\Users\\001128225\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\001128225\\OneDrive - TAFE SA\\Desktop\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\obj\\",
+      "projectPath": "C:\\Users\\Rick\\Desktop\\gitClone\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\Start Finance.csproj",
+      "projectJsonPath": "C:\\Users\\Rick\\Desktop\\gitClone\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\project.json",
+      "packagesPath": "C:\\Users\\Rick\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rick\\Desktop\\gitClone\\Tafe21S101\\StartFinanceMaster\\InstaRichie\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\001128225\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Rick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},

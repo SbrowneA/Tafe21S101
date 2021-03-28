@@ -101,7 +101,7 @@
 
 
             <!-- Personal Info button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfoPage" 
                                           AutomationProperties.Name="Jerry" >
                 <StackPanel Orientation="Horizontal">
                     <SymbolIcon Width="48" Height="48"
